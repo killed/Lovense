@@ -1,2 +1,3 @@
-# Lovense-Wiki
-Wiki of Lovense’s unofficial API
+# Lovense Wiki
+
+[Wiki](https://github.com/killed/Lovense-Wiki/wiki)
