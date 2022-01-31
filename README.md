@@ -1,7 +1,5 @@
 # Lovense Wiki
 
-This will have everything to-do with the mobile api
+This will have everything to-do with the mobile api's encryption
 
 [Discord](https://discord.gg/cK3UN4exSM)
-
-[Wiki](https://github.com/killed/Lovense-Wiki/wiki)
