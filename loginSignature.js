@@ -21,9 +21,29 @@ function createSignature(username, password) {
     return [password, signature += cipher.final("base64")];
 };
 
-var signature = createSignature("removal", "aaa");
+var signature = createSignature("username", "password");
 
 console.log({
     "encryptedPassword": signature[0],
     "signature": signature[1]
 });
+
+/*
+
+    POST https://apps2.lovense.com/api/wear/genGtoken
+
+    Headers -
+
+        Content-Type: application/x-www-form-urlencoded; charset=utf-8
+        Ver: 5.2.7
+
+    Form Data -
+
+        password: createSignature("username", "password")[0]
+        ver: 5.2.7
+        signature: createSignature("username", "password")[1]
+        pf: remote-android
+        tag: login
+        email: username/email
+
+*/
