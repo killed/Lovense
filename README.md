@@ -2,6 +2,11 @@
 
 This will have everything to-do with the mobile api's encryption - [Discord](https://discord.gg/cK3UN4exSM)
 
+## Hosts
+* apps.lovense.com
+* apps2.lovense.com
+* apps3.lovense.com
+
 ## Login
 
 POST `https://apps2.lovense.com/api/wear/genGtoken`
